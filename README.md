@@ -1,13 +1,6 @@
 # Client Portal (React)
 
-A minimal authentication-focused React application.
-
-## Features
-- Email-based login simulation
-- API-driven user validation (JSONPlaceholder)
-- Auth state management with Context API
-- Protected routes
-- Persistent login with localStorage
+Authentication-focused React application integrated with a Spring Boot backend.
 
 ## Tech Stack
 - React
@@ -16,6 +9,11 @@ A minimal authentication-focused React application.
 - Axios
 - Tailwind CSS
 
-## Notes
-- Password validation is simulated on the frontend and expected to be handled by the backend in production
-- Designed to be easily replaceable with a real backend (Spring Boot)
+## Features
+- User registration & login
+- Protected routes
+- Persistent auth state (localStorage)
+- Backend API integration
+
+Backend Repo:
+https://github.com/berkbogac-akgunes/client-portal-auth-api
